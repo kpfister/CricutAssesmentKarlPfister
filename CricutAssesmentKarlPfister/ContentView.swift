@@ -50,7 +50,11 @@ struct ContentView: View {
                 }
                 ToolbarItem(placement: .topBarTrailing) {
                     NavigationLink {
-                        CircleDetailView(viewModel: viewModel)
+//                        CircleDetailView(gridshapesFromContentView: $viewModel.gridShapes)
+//                        CircleDetailView(viewModel: viewModel)
+//                        let editVM = EditCirclesViewModel(gridShapes: viewModel.gridShapes)
+//                        EditCirclesView(viewModel: editVM)
+                        EditCirclesView(gridshapesFromContentView: $viewModel.gridShapes)
                     } label: {
                         Text("Edit Circles")
                     }
