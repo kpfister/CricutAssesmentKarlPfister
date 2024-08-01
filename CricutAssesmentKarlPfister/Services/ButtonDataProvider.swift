@@ -13,15 +13,11 @@ protocol ButtonDataProvidable {
 
 struct ButtonDataProvider: ButtonDataProvidable, APIDataProvidable {
     func fetchShapes(from url: String) async throws -> [CricutButton] {
-        let url = URL(string: url)
-        let request = URLRequest(url: url!)
-        let data = try await perform(request)
-        do {
-            let decoder = JSONDecoder()
-            let buttons = try decoder.decode(CricutButtonTLD.self, from: data)
-            return buttons.cricutButtons
-        } catch {
-            throw NetworkingError.unableToDecode
+        guard let url = URL(string: url) else {
+            throw NetworkingError.invalidURL
         }
+        let request = URLRequest(url: url)
+        let object = try await perform(request, type: CricutButtonTLD.self)
+        return object.buttons
     }
 }

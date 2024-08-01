@@ -8,42 +8,11 @@
 import Foundation
 
 struct CricutButtonTLD: Decodable, Hashable {
-    private enum CodingKeys: String, CodingKey {
-        case cricutButtons = "buttons"
-    }
-    let cricutButtons: [CricutButton]
+    let buttons: [CricutButton]
 }
 
 struct CricutButton: Decodable, Hashable {
-   
-    private enum CodingKeys: String, CodingKey {
-        case name
-        case drawPath = "draw_path"
-    }
     let name: String
-    let drawPath: String
+    let drawPath: ShapeType
 }
 
-struct DrawShape: Identifiable {
-    var id: Int = UUID().hashValue
-    let name: String
-}
-/**
- {
-    "buttons":[
-       {
-          "name":"Circle",
-          "draw_path":"circle",
-       },
-       {
-          "name":"Square",
-          "draw_path":"square",
-       },
-       {
-          "name":"Triangle",
-          "draw_path":"triangle",
-       },
-    ]
- }
- 
- */

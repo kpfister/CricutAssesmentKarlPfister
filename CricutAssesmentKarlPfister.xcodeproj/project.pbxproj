@@ -7,11 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		41027AC32C5A91B400976C1B /* EditCirclesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41027AC22C5A91B400976C1B /* EditCirclesViewModel.swift */; };
+		41027AC62C5ADB3A00976C1B /* CricutShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41027AC52C5ADB3A00976C1B /* CricutShape.swift */; };
+		41027AD42C5BE38000976C1B /* ButtonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41027AD32C5BE38000976C1B /* ButtonsView.swift */; };
+		41027AD72C5C185D00976C1B /* UnitTestingEditCirclesViewModel_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41027AD62C5C185D00976C1B /* UnitTestingEditCirclesViewModel_Tests.swift */; };
+		41027AD92C5C29FF00976C1B /* UnitTestingMainGridViewModel_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41027AD82C5C29FF00976C1B /* UnitTestingMainGridViewModel_Tests.swift */; };
+		41027ADB2C5C2A9800976C1B /* MockButtonDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41027ADA2C5C2A9800976C1B /* MockButtonDataProvider.swift */; };
+		41027ADD2C5C308500976C1B /* UnitTestingNetworkError_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41027ADC2C5C308500976C1B /* UnitTestingNetworkError_Tests.swift */; };
+		41027ADF2C5C357400976C1B /* UnitTestingCricutTriangle_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41027ADE2C5C357400976C1B /* UnitTestingCricutTriangle_Tests.swift */; };
+		41027AE12C5C3D1600976C1B /* ShapeType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41027AE02C5C3D1600976C1B /* ShapeType.swift */; };
+		41027AE32C5C405600976C1B /* CricutButtonModifer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41027AE22C5C405600976C1B /* CricutButtonModifer.swift */; };
 		410620572C59281600A5374B /* CricutAssesmentKarlPfisterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410620562C59281600A5374B /* CricutAssesmentKarlPfisterApp.swift */; };
 		410620592C59281600A5374B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410620582C59281600A5374B /* ContentView.swift */; };
 		4106205B2C59281800A5374B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4106205A2C59281800A5374B /* Assets.xcassets */; };
 		4106205E2C59281800A5374B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4106205D2C59281800A5374B /* Preview Assets.xcassets */; };
-		410620682C59281800A5374B /* CricutAssesmentKarlPfisterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410620672C59281800A5374B /* CricutAssesmentKarlPfisterTests.swift */; };
 		410620722C59281800A5374B /* CricutAssesmentKarlPfisterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410620712C59281800A5374B /* CricutAssesmentKarlPfisterUITests.swift */; };
 		410620742C59281800A5374B /* CricutAssesmentKarlPfisterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410620732C59281800A5374B /* CricutAssesmentKarlPfisterUITestsLaunchTests.swift */; };
 		410620812C592C8F00A5374B /* CricutButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410620802C592C8F00A5374B /* CricutButton.swift */; };
@@ -20,7 +29,7 @@
 		4106208A2C595CEA00A5374B /* ButtonDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410620892C595CEA00A5374B /* ButtonDataProvider.swift */; };
 		4106208E2C59661700A5374B /* CricutTriangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4106208D2C59661700A5374B /* CricutTriangle.swift */; };
 		410620902C59669100A5374B /* MainGridViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4106208F2C59669100A5374B /* MainGridViewModel.swift */; };
-		410620922C59DF3C00A5374B /* CircleDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410620912C59DF3C00A5374B /* CircleDetailView.swift */; };
+		410620922C59DF3C00A5374B /* EditCirclesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410620912C59DF3C00A5374B /* EditCirclesView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,13 +50,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		41027AC22C5A91B400976C1B /* EditCirclesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditCirclesViewModel.swift; sourceTree = "<group>"; };
+		41027AC52C5ADB3A00976C1B /* CricutShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CricutShape.swift; sourceTree = "<group>"; };
+		41027AD32C5BE38000976C1B /* ButtonsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonsView.swift; sourceTree = "<group>"; };
+		41027AD52C5C03B300976C1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		41027AD62C5C185D00976C1B /* UnitTestingEditCirclesViewModel_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTestingEditCirclesViewModel_Tests.swift; sourceTree = "<group>"; };
+		41027AD82C5C29FF00976C1B /* UnitTestingMainGridViewModel_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTestingMainGridViewModel_Tests.swift; sourceTree = "<group>"; };
+		41027ADA2C5C2A9800976C1B /* MockButtonDataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockButtonDataProvider.swift; sourceTree = "<group>"; };
+		41027ADC2C5C308500976C1B /* UnitTestingNetworkError_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTestingNetworkError_Tests.swift; sourceTree = "<group>"; };
+		41027ADE2C5C357400976C1B /* UnitTestingCricutTriangle_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTestingCricutTriangle_Tests.swift; sourceTree = "<group>"; };
+		41027AE02C5C3D1600976C1B /* ShapeType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeType.swift; sourceTree = "<group>"; };
+		41027AE22C5C405600976C1B /* CricutButtonModifer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CricutButtonModifer.swift; sourceTree = "<group>"; };
 		410620532C59281600A5374B /* CricutAssesmentKarlPfister.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CricutAssesmentKarlPfister.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		410620562C59281600A5374B /* CricutAssesmentKarlPfisterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CricutAssesmentKarlPfisterApp.swift; sourceTree = "<group>"; };
 		410620582C59281600A5374B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4106205A2C59281800A5374B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4106205D2C59281800A5374B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		410620632C59281800A5374B /* CricutAssesmentKarlPfisterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CricutAssesmentKarlPfisterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		410620672C59281800A5374B /* CricutAssesmentKarlPfisterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CricutAssesmentKarlPfisterTests.swift; sourceTree = "<group>"; };
 		4106206D2C59281800A5374B /* CricutAssesmentKarlPfisterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CricutAssesmentKarlPfisterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		410620712C59281800A5374B /* CricutAssesmentKarlPfisterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CricutAssesmentKarlPfisterUITests.swift; sourceTree = "<group>"; };
 		410620732C59281800A5374B /* CricutAssesmentKarlPfisterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CricutAssesmentKarlPfisterUITestsLaunchTests.swift; sourceTree = "<group>"; };
@@ -57,7 +76,7 @@
 		410620892C595CEA00A5374B /* ButtonDataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonDataProvider.swift; sourceTree = "<group>"; };
 		4106208D2C59661700A5374B /* CricutTriangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CricutTriangle.swift; sourceTree = "<group>"; };
 		4106208F2C59669100A5374B /* MainGridViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainGridViewModel.swift; sourceTree = "<group>"; };
-		410620912C59DF3C00A5374B /* CircleDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleDetailView.swift; sourceTree = "<group>"; };
+		410620912C59DF3C00A5374B /* EditCirclesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditCirclesView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +104,68 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		41027AC42C5A921000976C1B /* Edit Circle */ = {
+			isa = PBXGroup;
+			children = (
+				41027AC22C5A91B400976C1B /* EditCirclesViewModel.swift */,
+				410620912C59DF3C00A5374B /* EditCirclesView.swift */,
+			);
+			path = "Edit Circle";
+			sourceTree = "<group>";
+		};
+		41027AC72C5ADC3B00976C1B /* App */ = {
+			isa = PBXGroup;
+			children = (
+				410620562C59281600A5374B /* CricutAssesmentKarlPfisterApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		41027AC82C5ADC6800976C1B /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				41027ACE2C5ADCD400976C1B /* Components */,
+				41027AC42C5A921000976C1B /* Edit Circle */,
+				41027ACA2C5ADC7F00976C1B /* Root */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		41027AC92C5ADC7000976C1B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				410620582C59281600A5374B /* ContentView.swift */,
+				41027AD32C5BE38000976C1B /* ButtonsView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		41027ACA2C5ADC7F00976C1B /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				41027AC92C5ADC7000976C1B /* View */,
+				41027ACB2C5ADC8900976C1B /* View Model */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		41027ACB2C5ADC8900976C1B /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				4106208F2C59669100A5374B /* MainGridViewModel.swift */,
+			);
+			path = "View Model";
+			sourceTree = "<group>";
+		};
+		41027ACE2C5ADCD400976C1B /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				4106208D2C59661700A5374B /* CricutTriangle.swift */,
+				41027AE22C5C405600976C1B /* CricutButtonModifer.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
 		4106204A2C59281600A5374B = {
 			isa = PBXGroup;
 			children = (
@@ -108,15 +189,13 @@
 		410620552C59281600A5374B /* CricutAssesmentKarlPfister */ = {
 			isa = PBXGroup;
 			children = (
-				410620842C59596900A5374B /* Services */,
-				410620832C59596100A5374B /* View Model */,
+				41027AD52C5C03B300976C1B /* Info.plist */,
+				41027AC72C5ADC3B00976C1B /* App */,
+				41027AC82C5ADC6800976C1B /* Core */,
 				410620822C59595700A5374B /* Model */,
-				410620562C59281600A5374B /* CricutAssesmentKarlPfisterApp.swift */,
-				410620582C59281600A5374B /* ContentView.swift */,
+				410620842C59596900A5374B /* Services */,
 				4106205A2C59281800A5374B /* Assets.xcassets */,
 				4106205C2C59281800A5374B /* Preview Content */,
-				4106208D2C59661700A5374B /* CricutTriangle.swift */,
-				410620912C59DF3C00A5374B /* CircleDetailView.swift */,
 			);
 			path = CricutAssesmentKarlPfister;
 			sourceTree = "<group>";
@@ -132,7 +211,11 @@
 		410620662C59281800A5374B /* CricutAssesmentKarlPfisterTests */ = {
 			isa = PBXGroup;
 			children = (
-				410620672C59281800A5374B /* CricutAssesmentKarlPfisterTests.swift */,
+				41027AD62C5C185D00976C1B /* UnitTestingEditCirclesViewModel_Tests.swift */,
+				41027AD82C5C29FF00976C1B /* UnitTestingMainGridViewModel_Tests.swift */,
+				41027ADA2C5C2A9800976C1B /* MockButtonDataProvider.swift */,
+				41027ADC2C5C308500976C1B /* UnitTestingNetworkError_Tests.swift */,
+				41027ADE2C5C357400976C1B /* UnitTestingCricutTriangle_Tests.swift */,
 			);
 			path = CricutAssesmentKarlPfisterTests;
 			sourceTree = "<group>";
@@ -150,16 +233,10 @@
 			isa = PBXGroup;
 			children = (
 				410620802C592C8F00A5374B /* CricutButton.swift */,
+				41027AC52C5ADB3A00976C1B /* CricutShape.swift */,
+				41027AE02C5C3D1600976C1B /* ShapeType.swift */,
 			);
 			path = Model;
-			sourceTree = "<group>";
-		};
-		410620832C59596100A5374B /* View Model */ = {
-			isa = PBXGroup;
-			children = (
-				4106208F2C59669100A5374B /* MainGridViewModel.swift */,
-			);
-			path = "View Model";
 			sourceTree = "<group>";
 		};
 		410620842C59596900A5374B /* Services */ = {
@@ -306,11 +383,16 @@
 				410620902C59669100A5374B /* MainGridViewModel.swift in Sources */,
 				410620592C59281600A5374B /* ContentView.swift in Sources */,
 				410620812C592C8F00A5374B /* CricutButton.swift in Sources */,
+				41027AC32C5A91B400976C1B /* EditCirclesViewModel.swift in Sources */,
 				410620862C59597800A5374B /* APIService.swift in Sources */,
+				41027AD42C5BE38000976C1B /* ButtonsView.swift in Sources */,
+				41027AC62C5ADB3A00976C1B /* CricutShape.swift in Sources */,
 				410620572C59281600A5374B /* CricutAssesmentKarlPfisterApp.swift in Sources */,
 				4106208E2C59661700A5374B /* CricutTriangle.swift in Sources */,
 				410620882C5959CD00A5374B /* NetworkingError.swift in Sources */,
-				410620922C59DF3C00A5374B /* CircleDetailView.swift in Sources */,
+				410620922C59DF3C00A5374B /* EditCirclesView.swift in Sources */,
+				41027AE32C5C405600976C1B /* CricutButtonModifer.swift in Sources */,
+				41027AE12C5C3D1600976C1B /* ShapeType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,7 +400,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				410620682C59281800A5374B /* CricutAssesmentKarlPfisterTests.swift in Sources */,
+				41027ADF2C5C357400976C1B /* UnitTestingCricutTriangle_Tests.swift in Sources */,
+				41027AD92C5C29FF00976C1B /* UnitTestingMainGridViewModel_Tests.swift in Sources */,
+				41027ADB2C5C2A9800976C1B /* MockButtonDataProvider.swift in Sources */,
+				41027ADD2C5C308500976C1B /* UnitTestingNetworkError_Tests.swift in Sources */,
+				41027AD72C5C185D00976C1B /* UnitTestingEditCirclesViewModel_Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -477,6 +563,7 @@
 				DEVELOPMENT_TEAM = 5WJ44R4U4C;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CricutAssesmentKarlPfister/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -506,6 +593,7 @@
 				DEVELOPMENT_TEAM = 5WJ44R4U4C;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CricutAssesmentKarlPfister/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
