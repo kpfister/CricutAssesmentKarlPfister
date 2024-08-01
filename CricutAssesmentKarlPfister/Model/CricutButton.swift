@@ -16,6 +16,3 @@ struct CricutButton: Decodable, Hashable {
     let drawPath: ShapeType
 }
 
-enum ShapeType: String, Decodable {
-    case square, circle, triangle
-}

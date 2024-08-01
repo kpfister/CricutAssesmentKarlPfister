@@ -8,7 +8,7 @@
 import Foundation
 import SwiftUI
 
-class MainGridViewModel: ObservableObject {
+final class MainGridViewModel: ObservableObject {
     
     @Published var buttons: [CricutButton]?
     @Published var gridShapes: [CricutShape] = []

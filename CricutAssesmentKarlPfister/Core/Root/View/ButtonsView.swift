@@ -17,14 +17,8 @@ struct ButtonsView: View {
                 Button(shape.name) {
                     viewModel.addShape(ofType: shape.drawPath)
                 }
-                .padding()
-                .font(.subheadline)
-                .fontWeight(.semibold)
-                .foregroundStyle(.white)
-                .background(.black)
-                .cornerRadius(8)
+                .modifier(CricutButtonModifer())
             }
-            
         }
     }
 }

@@ -30,32 +30,17 @@ struct EditCirclesView: View {
                 Button("Delete All") {
                     viewModel.removeAllCircles()
                 }
-                .padding()
-                .font(.subheadline)
-                .fontWeight(.semibold)
-                .foregroundStyle(.white)
-                .background(.black)
-                .cornerRadius(8)
+                .modifier(CricutButtonModifer())
                 
                 Button("Add") {
                     viewModel.addShape(ofType: .circle)
                 }
-                .padding()
-                .font(.subheadline)
-                .fontWeight(.semibold)
-                .foregroundStyle(.white)
-                .background(.black)
-                .cornerRadius(8)
+                .modifier(CricutButtonModifer())
                 
                 Button("Remove") {
                     viewModel.removeLastCircle()
                 }
-                .padding()
-                .font(.subheadline)
-                .fontWeight(.semibold)
-                .foregroundStyle(.white)
-                .background(.black)
-                .cornerRadius(8)
+                .modifier(CricutButtonModifer())
             }
         }
     }

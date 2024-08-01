@@ -8,7 +8,7 @@
 import Foundation
 import SwiftUI
 
-class EditCirclesViewModel: ObservableObject {
+final class EditCirclesViewModel: ObservableObject {
     
     @Binding var gridShapes: [CricutShape]
    
@@ -21,7 +21,7 @@ class EditCirclesViewModel: ObservableObject {
     }
     
     func removeLastCircle() {
-        guard let index = gridShapes.lastIndex(where: {$0.type == .circle}) else {return}
+        guard let index = gridShapes.lastIndex(where: {$0.type == .circle}) else { return }
         gridShapes.remove(at: index)
     }
     
