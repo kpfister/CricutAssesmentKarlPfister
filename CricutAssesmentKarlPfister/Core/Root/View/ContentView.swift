@@ -15,7 +15,7 @@ struct ContentView: View {
     
     var body: some View {
         NavigationStack {
-            ZStack(alignment: .bottom) {
+            VStack {
                 ScrollView {
                     LazyVGrid(columns: gridItemLayout) {
                         ForEach(viewModel.gridShapes) { shape in

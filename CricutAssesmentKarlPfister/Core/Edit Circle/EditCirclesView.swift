@@ -14,50 +14,53 @@ struct EditCirclesView: View {
     private let gridItemLayout = [GridItem(.flexible(minimum: 10, maximum: 100)),GridItem(.flexible(minimum: 10, maximum: 100)),GridItem(.flexible(minimum: 10, maximum: 100))]
     
     var body: some View {
-        ScrollView {
-            LazyVGrid(columns: gridItemLayout) {
-                ForEach(viewModel.gridShapes.filter({$0.type == .circle})) { shape in
-                    Circle()
-                        .foregroundStyle(.red)
+        VStack {
+            ScrollView {
+                LazyVGrid(columns: gridItemLayout) {
+                    ForEach(viewModel.gridShapes.filter({$0.type == .circle})) { shape in
+                        Circle()
+                            .foregroundStyle(.red)
+                    }
                 }
             }
-        }
-        Spacer()
-        LazyHStack() {
-            Button("Delete All") {
-                viewModel.removeAllCircles()
-            }
-            .padding()
-            .font(.subheadline)
-            .fontWeight(.semibold)
-            .foregroundStyle(.white)
-            .background(.black)
-            .cornerRadius(8)
             
-            Button("Add") {
-                viewModel.addShape(ofType: .circle)
-            }
-            .padding()
-            .font(.subheadline)
-            .fontWeight(.semibold)
-            .foregroundStyle(.white)
-            .background(.black)
-            .cornerRadius(8)
+            Spacer()
             
-            Button("Remove") {
-                viewModel.removeLastCircle()
+            HStack(alignment: .bottom, spacing: 40) {
+                Button("Delete All") {
+                    viewModel.removeAllCircles()
+                }
+                .padding()
+                .font(.subheadline)
+                .fontWeight(.semibold)
+                .foregroundStyle(.white)
+                .background(.black)
+                .cornerRadius(8)
+                
+                Button("Add") {
+                    viewModel.addShape(ofType: .circle)
+                }
+                .padding()
+                .font(.subheadline)
+                .fontWeight(.semibold)
+                .foregroundStyle(.white)
+                .background(.black)
+                .cornerRadius(8)
+                
+                Button("Remove") {
+                    viewModel.removeLastCircle()
+                }
+                .padding()
+                .font(.subheadline)
+                .fontWeight(.semibold)
+                .foregroundStyle(.white)
+                .background(.black)
+                .cornerRadius(8)
             }
-            .padding()
-            .font(.subheadline)
-            .fontWeight(.semibold)
-            .foregroundStyle(.white)
-            .background(.black)
-            .cornerRadius(8)
         }
-//        .frame(height: 4)
-        .background(.green)
     }
 }
+
 
 #Preview {
     @State var shapes = [CricutShape(type: .circle),CricutShape(type: .square),CricutShape(type: .triangle)]

@@ -10,6 +10,9 @@
 		41027AC32C5A91B400976C1B /* EditCirclesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41027AC22C5A91B400976C1B /* EditCirclesViewModel.swift */; };
 		41027AC62C5ADB3A00976C1B /* CricutShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41027AC52C5ADB3A00976C1B /* CricutShape.swift */; };
 		41027AD42C5BE38000976C1B /* ButtonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41027AD32C5BE38000976C1B /* ButtonsView.swift */; };
+		41027AD72C5C185D00976C1B /* UnitTestingEditCirclesViewModel_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41027AD62C5C185D00976C1B /* UnitTestingEditCirclesViewModel_Tests.swift */; };
+		41027AD92C5C29FF00976C1B /* UnitTestingMainGridViewModel_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41027AD82C5C29FF00976C1B /* UnitTestingMainGridViewModel_Tests.swift */; };
+		41027ADB2C5C2A9800976C1B /* MockButtonDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41027ADA2C5C2A9800976C1B /* MockButtonDataProvider.swift */; };
 		410620572C59281600A5374B /* CricutAssesmentKarlPfisterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410620562C59281600A5374B /* CricutAssesmentKarlPfisterApp.swift */; };
 		410620592C59281600A5374B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410620582C59281600A5374B /* ContentView.swift */; };
 		4106205B2C59281800A5374B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4106205A2C59281800A5374B /* Assets.xcassets */; };
@@ -48,6 +51,9 @@
 		41027AC52C5ADB3A00976C1B /* CricutShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CricutShape.swift; sourceTree = "<group>"; };
 		41027AD32C5BE38000976C1B /* ButtonsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonsView.swift; sourceTree = "<group>"; };
 		41027AD52C5C03B300976C1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		41027AD62C5C185D00976C1B /* UnitTestingEditCirclesViewModel_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTestingEditCirclesViewModel_Tests.swift; sourceTree = "<group>"; };
+		41027AD82C5C29FF00976C1B /* UnitTestingMainGridViewModel_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTestingMainGridViewModel_Tests.swift; sourceTree = "<group>"; };
+		41027ADA2C5C2A9800976C1B /* MockButtonDataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockButtonDataProvider.swift; sourceTree = "<group>"; };
 		410620532C59281600A5374B /* CricutAssesmentKarlPfister.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CricutAssesmentKarlPfister.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		410620562C59281600A5374B /* CricutAssesmentKarlPfisterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CricutAssesmentKarlPfisterApp.swift; sourceTree = "<group>"; };
 		410620582C59281600A5374B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -199,6 +205,9 @@
 			isa = PBXGroup;
 			children = (
 				410620672C59281800A5374B /* CricutAssesmentKarlPfisterTests.swift */,
+				41027AD62C5C185D00976C1B /* UnitTestingEditCirclesViewModel_Tests.swift */,
+				41027AD82C5C29FF00976C1B /* UnitTestingMainGridViewModel_Tests.swift */,
+				41027ADA2C5C2A9800976C1B /* MockButtonDataProvider.swift */,
 			);
 			path = CricutAssesmentKarlPfisterTests;
 			sourceTree = "<group>";
@@ -380,7 +389,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41027AD92C5C29FF00976C1B /* UnitTestingMainGridViewModel_Tests.swift in Sources */,
 				410620682C59281800A5374B /* CricutAssesmentKarlPfisterTests.swift in Sources */,
+				41027ADB2C5C2A9800976C1B /* MockButtonDataProvider.swift in Sources */,
+				41027AD72C5C185D00976C1B /* UnitTestingEditCirclesViewModel_Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
