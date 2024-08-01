@@ -166,6 +166,32 @@
 			path = Components;
 			sourceTree = "<group>";
 		};
+		41027AE42C5C422F00976C1B /* View Model Tests */ = {
+			isa = PBXGroup;
+			children = (
+				41027AD82C5C29FF00976C1B /* UnitTestingMainGridViewModel_Tests.swift */,
+				41027AD62C5C185D00976C1B /* UnitTestingEditCirclesViewModel_Tests.swift */,
+			);
+			path = "View Model Tests";
+			sourceTree = "<group>";
+		};
+		41027AE52C5C423B00976C1B /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				41027ADC2C5C308500976C1B /* UnitTestingNetworkError_Tests.swift */,
+				41027ADA2C5C2A9800976C1B /* MockButtonDataProvider.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		41027AE62C5C424800976C1B /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				41027ADE2C5C357400976C1B /* UnitTestingCricutTriangle_Tests.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
 		4106204A2C59281600A5374B = {
 			isa = PBXGroup;
 			children = (
@@ -211,11 +237,9 @@
 		410620662C59281800A5374B /* CricutAssesmentKarlPfisterTests */ = {
 			isa = PBXGroup;
 			children = (
-				41027AD62C5C185D00976C1B /* UnitTestingEditCirclesViewModel_Tests.swift */,
-				41027AD82C5C29FF00976C1B /* UnitTestingMainGridViewModel_Tests.swift */,
-				41027ADA2C5C2A9800976C1B /* MockButtonDataProvider.swift */,
-				41027ADC2C5C308500976C1B /* UnitTestingNetworkError_Tests.swift */,
-				41027ADE2C5C357400976C1B /* UnitTestingCricutTriangle_Tests.swift */,
+				41027AE42C5C422F00976C1B /* View Model Tests */,
+				41027AE52C5C423B00976C1B /* Service */,
+				41027AE62C5C424800976C1B /* Components */,
 			);
 			path = CricutAssesmentKarlPfisterTests;
 			sourceTree = "<group>";
